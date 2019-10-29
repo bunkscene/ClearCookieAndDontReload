@@ -21,8 +21,5 @@ chrome.browserAction.onClicked.addListener(function(tab) {
                 "name": cname
             });
         }
-
-        // reload currect active tab
-        chrome.tabs.reload();
     });
 });
