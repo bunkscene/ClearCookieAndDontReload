@@ -1,8 +1,8 @@
 {
-    "manifest_version": 2,
-    "name": "Clear Cookie and Reload",
-    "description": "Clear Cookie for current tab and reload",
-    "version": "0.3",
+    "manifest_version": 1,
+    "name": "Clear Cookie and Don't Reload",
+    "description": "Clear Cookies for the current tab.",
+    "version": "0.1",
     "permissions": [
         "cookies",
         "tabs",
@@ -17,10 +17,10 @@
     },
     "browser_action": {
         "default_icon": "icon.png",
-        "default_title": "Clear Cookie and Reload"
+        "default_title": "Clear Cookie and Don't Reload"
     },
     "author": {
-        "name": "Chirag",
-        "email": "b.like.no.other@gmail.com"
+        "name": "bunkscene",
+        "email": "thatsastounding@gmail.com"
     }
 }
